@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_employe_mn"
+    app:startDestination="@+id/employe_mn_overall">
+    <fragment
+        android:id="@+id/employe_mn_overall"
+        android:name="com.example.companymanagement.viewcontroller.fragment.employe.EmployeOverall"
+        android:label="fragment_employe_mn_overall"
+        tools:layout="@layout/fragment_employe_list" />
+
+    <fragment
+        android:id="@+id/employe_mn_register"
+        android:name="com.example.companymanagement.viewcontroller.fragment.employe.EmployeRegister"
+        android:label="fragment_employe_mn_register"
+        tools:layout="@layout/fragment_employe_register" />
+</navigation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viewcontroller.fragment.mainmore.MainMore">
+
+    <androidx.appcompat.widget.LinearLayoutCompat style="@style/layout_page_title">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_page_title_heading"
+            android:text="@string/navigation_tab_item_4" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_page_title_sub_heading"
+            android:text="Một số cài đặt" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_page_title_heading"
+            android:layout_margin="20dp"
+            android:text="@string/more_setting" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:name="com.example.companymanagement.MainMore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layoutManager="LinearLayoutManager"
+            tools:itemCount="1"
+            tools:listitem="@layout/item_more_setting" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

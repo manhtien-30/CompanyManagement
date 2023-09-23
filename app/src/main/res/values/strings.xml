@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Company Management</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_fragment">actionbar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="fragment_tabpage">TabPage</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_retype">RetypePassword</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_forgot_password"><u>Forgot Password ?</u> </string>
+    <string name="name_forgot_password">Forgot Password</string>
+    <string name="detail_forgot_password">Enter your email address to reset your password</string>
+    <string name="hint_forgot_pass">Enter your email</string>
+    <string name="send">Send</string>
+    <string name="name_verify_code">Verify Mail</string>
+    <string name="detail_verify_code">Check your email address, we have sent you the code at your email</string>
+    <string name="request_resend_code">Not receive the code ?</string>
+    <string name="resend_code">Resend</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!--    Employee Management -->
+    <string name="detail_employee">Thông tin chi tiết</string>
+    <string name="detail_employee_account">Tên tài khoản</string>
+    <string name="detail_employee_password">Mật khẩu tài khoản</string>
+    <string name="detail_employee_name">Tên nhân viên</string>
+    <string name="navigation_employe_mn_overall">Danh sách</string>
+    <string name="navigation_employe_mn_register">Đăng ký</string>
+    <string name="detail_employee_register">Tạo tài khoản mới</string>
+    <string name="hint_account">Họ tên</string>
+    <string name="hint_mail">Email nhân viên</string>
+    <string name="detail_employee_position">Vị trí</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_password_confirm">Xác nhận lại mật khẩu</string>
+    <string name="reload"><u>Làm mới ?</u></string>
+    <string name="name_employee_manage">Employee Management</string>
+    <string name="search_employee_manage">Tìm kiếm nhân viên theo họ tên</string>
+    <string name="done">Tạo mới</string>
+    <string-array name="position_category">
+        <item>Nhân viên</item>
+        <item>Quản lý</item>
+    </string-array>
+    <string name="dl_birthdate">Ngày sinh</string>
+    <string name="dl_contactmail">Email liên hệ</string>
+    <string name="dl_createtime">Ngày khởi tạo</string>
+    <string name="dl_gender">Giới tính</string>
+    <string name="dl_idcard_cd">Ngày cấp</string>
+    <string name="dl_idcard_loc">Nơi cấp</string>
+    <string name="dl_idcard_number">Số CMND/CCCD</string>
+    <string name="dl_phone">Số điện thoại</string>
+    <string name="dl_position">Vị trí</string>
+    <string name="dl_updatetime">Ngày điều chỉnh</string>
+    <string name="dl_username">Họ tên</string>
+    <!--    Task Management -->
+    <string name="detail_task_create">Tạo task mới</string>
+    <string name="detail_task_name">Tên task</string>
+    <string name="hint_task_name">Task</string>
+    <string name="detail_task_receiver">Người nhận</string>
+    <string name="hint_task_search">Tìm kiếm nhân viên</string>
+    <string name="hint_task_category">Category</string>
+    <string-array name="receiver_category">
+        <item>None</item>
+        <item>Tất cả</item>
+        <item>Nhân viên</item>
+        <item>Quản lý</item>
+    </string-array>
+    <string name="detail_task_timeline">Thời gian</string>
+    <string name="task_creat_datestart">Ngày gửi</string>
+    <string name="task_create_deadline">Hạn deadline</string>
+    <string name="detail_task_status">Tình trạng</string>
+    <string name="detail_task_descripton">Mô tả</string>
+    <string name="hint_task_description">Mô tả nội dung</string>
+    <string name="detail_task_sender">Người gửi</string>
+    <string name="search_tasklist">Tìm kiếm task</string>
+    <string name="taskoverall_item1">Hoàn thành</string>
+    <string name="taskoverall_item2">Đang tiến hành</string>
+    <string name="taskoverall_item3">Trễ hạn</string>
+    <string name="taskoverall_today">Today task</string>
+    <string-array name="task_manager_tab_name">
+        <item>Tổng quát</item>
+        <item>Danh sách task</item>
+        <item>Thêm task mới</item>
+    </string-array>
+    er text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    TODO:Tab -->
+    <string name="navigation_tab_item_1">Home</string>
+    <string name="navigation_tab_item_2">Dự án</string>
+    <string name="navigation_tab_item_3">Workplace</string>
+    <string name="navigation_tab_item_4">Thêm</string>
+    <string name="navigation_manager_item_1">Quản lý nhân viên</string>
+    <string name="navigation_manager_item_2">Quản lý tác vụ</string>
+    <string name="navigation_manager_item_3">Thông báo</string>
+    <string name="hone_manager">Quản trị viên</string>
+    <string name="hone_typing">Nhập liệu</string>
+    <string name="hone_workspace">Workspace</string>
+    <string name="more_setting">Cài Đặt</string>
+    <string name="salary_chart">Biểu đồ lương</string>
+    <string name="qrscaner_string">Quét QR để điểm danh</string>
+    <string name="content_description_favorite">Thích nè</string>
+    <string name="content_description_search">Tìm kiếm</string>
+    <string name="content_description_filter">Tìm kiếm</string>
+    <string name="content_description_more">Mở rộng</string>
+    <string name="show_shortcut_list">Danh sách gọn</string>
+    <string name="show_detailed_list">Danh sách chi tiết</string>
+    <string name="find_by_name">Nhập tên nhân viên</string>
+    <string name="find_by_time">Nhập thời gian</string>
+    <string name="clear_all">Đặt lại</string>
+    <string name="back">Trước</string>
+    <string name="next">Sau</string>
+    <string name="top1">NHẤT</string>
+    <string name="top2">NHÌ</string>
+    <string name="top3">BA</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="position">Position</string>
+    <string name="password">Password</string>
+    <string-array name="employee_manager_tab_name">
+        <item>Thêm Nhân Viên</item>
+        <item>Danh Sách Nhân Viên</item>
+    </string-array>
+    <string-array name="user_manager_tab_name">
+        <item>Checkin</item>
+        <item>Dự án</item>
+        <item>Thông Tin</item>
+    </string-array>
+    <string-array name="leave_tab_name">
+        <item>Đăng kí</item>
+        <item>Lịch sử</item>
+    </string-array>
+    <string-array name="manager_leave_tab_name">
+        <item>Đơn cần duyệt</item>
+        <item>Lịch sử</item>
+    </string-array>
+</resources>

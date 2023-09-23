@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396290368899",
+    "firebase_url": "https://dudaoblog.firebaseio.com",
+    "project_id": "dudaoblog",
+    "storage_bucket": "dudaoblog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396290368899:android:c95c576bbb2483c1d8c2b6",
+        "android_client_info": {
+          "package_name": "com.example.companymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396290368899-fsmt914laac98kahg6mfd7c16ic2f6ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqCTYNgEBx_58Qr-MU6Xr4-N5X-zomsgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396290368899-fsmt914laac98kahg6mfd7c16ic2f6ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

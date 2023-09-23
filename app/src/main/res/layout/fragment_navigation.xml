@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="100dp"
+    tools:context=".viewcontroller.fragment.navigation.Navigation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:state_checked="true"
+        app:itemIconTint="@drawable/navigation_statecolor"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/main_menu" />
+
+</androidx.cardview.widget.CardView>

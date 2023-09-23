@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_home"
+        android:icon="@drawable/ic_leaf"
+        android:title="@string/navigation_tab_item_1" />
+    <item
+        android:id="@+id/main_project"
+        android:icon="@drawable/ic_project"
+        android:title="@string/navigation_tab_item_2" />
+    <item
+        android:id="@+id/main_workspace"
+        android:icon="@drawable/ic_workspace"
+        android:title="@string/navigation_tab_item_3" />
+    <item
+        android:id="@+id/main_more"
+        android:icon="@drawable/ic_more"
+        android:title="@string/navigation_tab_item_4" />
+</menu>

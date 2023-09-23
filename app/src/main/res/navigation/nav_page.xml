@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_page"
+    app:startDestination="@id/main_home">
+
+    <fragment
+        android:id="@+id/main_home"
+        android:name="com.example.companymanagement.viewcontroller.fragment.mainhome.MainHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_main_home" />
+
+    <fragment
+        android:id="@+id/main_workspace"
+        android:name="com.example.companymanagement.viewcontroller.fragment.mainworkspace.MainTweet"
+        android:label="fragment_main_workspace"
+        tools:layout="@layout/fragment_main_tweet" />
+    <fragment
+        android:id="@+id/main_project"
+        android:name="com.example.companymanagement.viewcontroller.fragment.mainproject.MainProject"
+        android:label="fragment_main_project"
+        tools:layout="@layout/fragment_main_project" />
+    <fragment
+        android:id="@+id/main_more"
+        android:name="com.example.companymanagement.viewcontroller.fragment.mainmore.MainMore"
+        android:label="fragment_main_more_list"
+        tools:layout="@layout/item_more_setting" />
+
+    <fragment
+        android:id="@+id/employee_manager"
+        android:name="com.example.companymanagement.viewcontroller.fragment.employe.EmployeManager"
+        android:label="fragment_employe_manager"
+        tools:layout="@layout/fragment_tablayout_pagerviewer" />
+    <fragment
+        android:id="@+id/user_salary"
+        android:name="com.example.companymanagement.viewcontroller.fragment.salary.SalaryFragment"
+        android:label="fragment_user_salary"
+        tools:layout="@layout/fragment_salary" />
+    <fragment
+        android:id="@+id/checkin_qrscanner"
+        android:name="com.example.companymanagement.viewcontroller.fragment.qrscanner.QRScanner"
+        android:label="fragment_user_salary" />
+    <fragment
+        android:id="@+id/leaderboard"
+        android:name="com.example.companymanagement.viewcontroller.fragment.leaderboard.LeaderboardFragment"
+        android:label="fragment_leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+    <fragment
+        android:id="@+id/manager_salary"
+        android:name="com.example.companymanagement.viewcontroller.fragment.manager.salary.SalaryManager"
+        android:label="fragment_mn_salary"
+        tools:layout="@layout/fragment_manager_salary" />
+    <fragment
+        android:id="@+id/task_manager"
+        android:name="com.example.companymanagement.viewcontroller.fragment.task.TaskManager"
+        android:label="fragment_task_manager"
+        tools:layout="@layout/fragment_tablayout_taskview" />
+
+    <fragment
+        android:id="@+id/leave_sign"
+        android:name="com.example.companymanagement.viewcontroller.fragment.signleave.employeLeave.LeaveContainer"
+        android:label="fragment_leave"
+        tools:layout="@layout/fragment_leave" />
+    <fragment
+        android:id="@+id/leave_manager"
+        android:name="com.example.companymanagement.viewcontroller.fragment.signleave.employeLeave.ManagerContainer"
+        android:label="Manager" />
+
+</navigation>

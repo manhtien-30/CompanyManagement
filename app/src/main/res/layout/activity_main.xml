@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context=".viewcontroller.activity.main.MainActivity">
+
+    <fragment
+        android:id="@+id/action_bar"
+        android:name="com.example.companymanagement.viewcontroller.fragment.actionbar.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_action_bar" />
+
+    <fragment
+        android:id="@+id/activity_container_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_page" />
+
+    <fragment
+        android:id="@+id/navigation"
+        android:name="com.example.companymanagement.viewcontroller.fragment.navigation.Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        tools:layout="@layout/fragment_navigation" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
